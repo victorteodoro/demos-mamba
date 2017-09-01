@@ -1,0 +1,18 @@
+// If you want to use the default color variables, import them here. If you want to change them, do not import, just override the values
+@import '~mamba-websdk/src/styles/base/colorVariables';
+
+// Font
+$font-path: '~mamba-websdk/src/fonts/Roboto/';
+
+// Icons
+$mb-icons-path: '~mamba-websdk/src/icons/';
+
+// Colors
+// You can change the colors of the components just changing the color variables, for example:
+// $primary-color-dark: $blue-grey-dark;
+$grafitti: #262626;
+$orange: #fc7f2f;
+$orange-dark: #f95f2d;
+$yellow: #ffd55b;
+
+$primary-color:      $orange;

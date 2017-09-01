@@ -1,0 +1,58 @@
+<div class="confirm container">
+  <section class="logo">
+    <mb-image mb-src="./assets/logo.png"></mb-image>
+  </section>
+  <section class="confirm-user">
+    <div class="user">
+      <mb-image class="user-pic" mb-src="./assets/user.jpg"></mb-image>
+      <h3>Jhenyffer Pelissari</h3>
+    </div>
+    <mb-button ref="confirm-everything">Confirmar</mb-button>
+    <mb-button ref="cancel-everything" class="cancel">Cancelar</mb-button>
+  </section>
+  <mb-dialog ref="cancel" mb-title="Cancelar" mb-negative-action="Voltar" mb-positive-action="Sim">Deseja cancelar a operação?</mb-dialog>
+
+  <mb-print-area ref="print-area">
+    <div class="jogo">
+      <mb-image mb-src="./assets/logo2.png"></mb-image>
+      <h1>CORITIBA</h1>
+      <h3>X</h3>
+      <h1>BOTAFOGO</h1>
+    </div>
+    <p>COUTO PEREIRA</p>
+    <div class="timestamp">
+      <p>24/09/2017</p>
+      <p>16:00</p>
+    </div>
+    <ul>
+      <li>
+        <p>Tipo de Entrada</p>
+        <p>INTEIRA</p>
+      </li>
+      <li>
+        <p>Área</p>
+        <p>Portão 19 e 21 | Social</p>
+        <p>Superior | Setor 02 | B</p>
+      </li>
+      <li>
+        <p>Lugar</p>
+        <p>02</p>
+      </li>
+    </ul>
+    <p class="value">Valor + Taxa = R$154,00</p>
+    <ul>
+        <li>
+          <p>Torcedor</p>
+          <p>Jhenyffer Pelissari</p>
+        </li>
+        <li>
+          <p>CPF</p>
+          <p>111.111.111-11</p>
+        </li>
+    </ul>
+    <footer>
+      <mb-image mb-src="./assets/qr.jpg"></mb-image>
+      <p>CAMPEONATO<br />BRASILEIRO</p>
+    </footer>
+  </mb-print-area>
+</div>

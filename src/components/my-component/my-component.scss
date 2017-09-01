@@ -1,0 +1,12 @@
+@import '~mamba-websdk/src/styles/variables';
+
+.my-component {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: .2em;
+
+  background-color: $grey-light;
+  color: $grey-dark;
+
+  text-align: center;
+}

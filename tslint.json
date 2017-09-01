@@ -1,0 +1,9 @@
+{
+  "extends": "tslint-config-standard",
+  "rules": {
+    "no-var-keyword": false,
+    "one-variable-per-declaration": [
+      "ignore-for-loop"
+    ]
+  }
+}

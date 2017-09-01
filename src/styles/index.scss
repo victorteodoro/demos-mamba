@@ -1,0 +1,61 @@
+@import 'custom-variables';
+@import '~mamba-websdk/src/styles/mamba';
+
+
+body {
+  height: 300px;
+  background-color: $grafitti;
+}
+
+.mb-button {
+  width: 100%;
+  margin-top: 8px;
+}
+
+.mb-input-container {
+  padding-right: 0;
+  padding-left: 0;
+  border: 0;
+  background-color: transparent;
+
+  label {
+    color: #fff;
+    text-align: center;
+    text-transform: none;
+  }
+
+  input {
+    height: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 3px;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+.logo {
+  padding: 20px 0;
+
+  img {
+    display: block;
+    width: 140px;
+    margin: auto;
+  }
+}
+
+.mb-printing {
+  background-color: $grafitti;
+
+  .mb-printing-content {
+    padding: 0 40px;
+
+    h1 {
+      color: #fff;
+    }
+
+    img {
+      margin-bottom: 30px;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+@import '../../styles/custom-variables';
+
+.payment {
+  height: 300px;
+  padding-top: 80px;
+  background-color: $grafitti;
+
+  h1 {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  img {
+    display: block;
+    width: 162px;
+    height: 97px;
+    margin: auto;
+  }
+}

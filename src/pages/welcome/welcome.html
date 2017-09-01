@@ -1,0 +1,13 @@
+<div class="welcome">
+  <section class="logo">
+    <mb-image mb-src="./assets/logo.png"></mb-image>
+  </section>
+  <section class="container">
+    <mb-input-container>
+      <label>Insira o CPF</label>
+      <mb-input type="text" maxlength="12" ref="input"></mb-input>
+    </mb-input-container>
+    <mb-button ref="btn-submit" disabled>Continuar</mb-button>
+  </section>
+  <mb-dialog ref="dialog-user-not-found" mb-title="Ops :(" mb-hide-negative-action="true">Usuário não encontrado.</mb-dialog>
+</div>
