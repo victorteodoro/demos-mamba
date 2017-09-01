@@ -1,11 +1,11 @@
-# pos-mamba-websdk-template
-> A template that uses the mamba-websdk library
+# pos-mamba-futebol-card-app
+> A Mamba App
 
 ## Dependencies
 - [nodejs](https://nodejs.org/)
 
 ## Usage
-1. [Clone](https://github.com/stone-payments/pos-mamba-websdk-template) or [Download](https://github.com/stone-payments/pos-mamba-websdk-template/archive/master.zip) this repository
+1. [Clone](https://github.com/stone-payments/pos-mamba-futebol-card-app) or [Download](https://github.com/stone-payments/pos-mamba-futebol-card-app/archive/master.zip) this repository
 2. Clone the [mamba-websdk](https://github.com/stone-payments/pos-mamba-websdk) into another folder
 3. Build the mamba-websdk (this step will be removed eventually)
 4. Install the npm dependencies
