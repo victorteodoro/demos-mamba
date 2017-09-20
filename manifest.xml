@@ -2,16 +2,16 @@
 
 <MambaClass Type="Manifest" Version="1.0">
     <Member Name="id">99</Member>
-    <Member Name="appName">Futebol Card</Member>
-    <Member Name="defaultName">Futebol Card</Member>
-    <Member Name="iconPath">assets/appLogo.png</Member>
-    <Member Name="displayedName">Futebol Card</Member>
+    <Member Name="appName">My Project</Member>
+    <Member Name="defaultName">My Project</Member>
+    <Member Name="iconPath">assets/logo.svg</Member>
+    <Member Name="displayedName">My Project</Member>
     <Member Name="appVersion">1.0.0</Member>
     <Member Name="runOnUserSelection">index.html</Member>
     <Member Name="listInMainMenu">true</Member>
     <Member Name="appTechnology">1</Member>
     <Member Name="appType">0</Member>
-    <Member Name="appDescription">Futebol Card app for the Mamba project</Member>
+    <Member Name="appDescription">Mamba Project</Member>
     <Member Name="appCreationDate">2017-07-17T13:32:00</Member>
     <Member Name="appLastModificationDate">2017-07-17T13:33:00</Member>
     <Member Name="appPasswordProtectionLevel">0</Member>

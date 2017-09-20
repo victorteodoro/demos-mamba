@@ -148,7 +148,6 @@ module.exports = {
     }),
     new OptimizeCssAssetsPlugin(),
     new ExtractTextPlugin(config.dist.name + '.css'),
-    new webpack.optimize.UglifyJsPlugin(),
     new OptimizeJsPlugin({
       sourceMap: false
     }),

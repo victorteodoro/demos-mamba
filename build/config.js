@@ -11,7 +11,7 @@ let config = {
   },
   dist: {
     root: 'dist',
-    name: 'futebol-card'
+    name: 'my-app'
   },
   lib: {
     mambaWebSdk: {
