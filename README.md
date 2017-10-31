@@ -1,5 +1,8 @@
-# pos-mamba-websdk-template
-> A template that uses the mamba-websdk library
+# Demos de Soluções para o Mamba
+> Nesse repo temos um conjunto das demos desenvolvidas pelo time de Soluções para a plataforma de POS Mamba, da Stone.
+
+## Estrutura
+Cada demo está numa _branch_ específica, devidamente nomeada. Lembre-se de cloná-las para poder usar em sua máquina local.
 
 ## Dependencies
 - [nodejs](https://nodejs.org/)
