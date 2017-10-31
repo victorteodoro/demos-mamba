@@ -1,37 +1,49 @@
 import { MbRouter } from 'mamba-websdk'
 
+/**
+ *
+ *    App da Ambev com Garantia Fornecedor - versão 2
+ *    
+ *    Ordem de Páginas:
+ *
+ *                      -> ListPending -> PendingDetail
+ *    Login -> Welcome |
+ *                      -> ListDone -> DoneDetail
+ *
+ **/
+
+import Login from '../pages/login'
 import Welcome from '../pages/welcome'
-import Payment from '../pages/payment'
-import Remove from '../pages/remove'
-import Password from '../pages/password'
-import Confirm from '../pages/confirm'
-import End from '../pages/end'
+import ListPending from '../pages/list-pending'
+import ListDone from '../pages/list-done'
+import PendingDetail from '../pages/pending-detail'
+import DoneDetail from '../pages/done-detail'
 
 export default new MbRouter({
   routes: [
     {
       path: '/',
+      component: Login
+    },
+    {
+      path: '/welcome',
       component: Welcome
     },
     {
-      path: '/payment',
-      component: Payment
+      path: '/list-pending',
+      component: ListPending
     },
     {
-      path: '/remove',
-      component: Remove
+      path: '/list-done',
+      component: ListDone
     },
     {
-      path: '/password',
-      component: Password
+      path: '/pending-detail',
+      component: PendingDetail
     },
     {
-      path: '/confirm',
-      component: Confirm
-    },
-    {
-      path: '/end',
-      component: End
+      path: '/done-detail',
+      component: DoneDetail
     }
   ]
 })

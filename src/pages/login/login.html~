@@ -1,0 +1,17 @@
+<div class="login">
+    <section class="logo">
+	<mb-image mb-src="./assets/logo_ambev.png"></mb-image>
+    </section>
+    <section class="container">
+	<mb-input-container>
+	    <label>CPF</label>
+	    <mb-input type="text" maxlength="12" ref="cpf"></mb-input>	   
+	</mb-input-container>
+	<mb-input-container class="mb-password">
+	  <label>Senha</label>
+	  <mb-input type="password" maxlength="4" ref="password"></mb-input>
+	</mb-input-container>
+	<mb-button ref="btn-submit" disabled>Continuar</mb-button>
+    </section>
+    <mb-dialog ref="dialog-wrong-password" mb-title="Ops :(" mb-hide-negative-action="true">Usuário não encontrado.</mb-dialog>
+</div>
