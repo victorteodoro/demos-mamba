@@ -1,0 +1,59 @@
+.list-pending {
+  height: 100%;
+  padding-bottom: 40px;
+  background-color: #eee;
+
+  .logo {
+    padding: 10px 0;
+  }
+
+  .text-white {
+    color: #fff;
+  }
+
+  .mb-collection-item {
+    background-color: #134bb8;
+    color: #fff;
+  }
+
+  .text-bold {
+    font-weight: bold;
+  }
+
+  .mb-button {
+    margin-top: 150px;
+    background-color: #ffc200;
+  }
+
+  .filipeta {
+    display: block;
+    width: 240px;
+    height: 150px;
+    margin: 0 0 0 60px;
+  }
+
+  .border-bottom {
+    border-bottom: 2px solid #000;
+  }
+
+  .border-full {
+    border: 2px solid #000;
+  }
+
+  .black-background {
+    background-color: #000;
+    color: #fff;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .bold {
+    font-weight: bold;
+  }
+
+  img {
+    width: 150px;
+  }
+}

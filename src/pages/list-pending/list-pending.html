@@ -1,0 +1,65 @@
+<div class="list-pending">
+  <!-- Logo da Ambev -->
+  <section class="logo">
+    <mb-image mb-src="./assets/logo_ambev_transparente.png"></mb-image>
+  </section>
+
+  <!-- Área visível  -->
+  <section class="container">
+    <div class="mb-collection" ref="proposals-list">
+      <!-- Título -->
+      <span class="mb-collection-item mb-title text-center"> <div class="mb-collection-left mb-icon " style="display: none;"></div> <span></span> <span class="mb-collection-item-text"> <span>Lista de operações</span>
+      </span>
+      <!-- Itens -->
+      </span>
+    </div>
+  </section>
+
+  <!-- Caixa de diálogo de confirmação da operação -->
+  <mb-dialog ref="dialog-pending-operation" mb-title="Você aprova?">
+    <p><span class="text-bold">Valor: </span><span ref="amount"></span></p>
+    <p><span class="text-bold">ID: </span><span ref="proposal-id"></span></p>
+    <p><span class="text-bold">Destinatário: </span><span ref="recipient-name"></span></p>
+    <p><span class="text-bold">Status: </span><span ref="proposal-status"></span></p>
+  </mb-dialog>
+
+  <!-- Filipetas -->
+  <mb-print-area ref="filipeta-parceiro">
+    <mb-image mb-src="./assets/logo_ambev_transparente.png" class="filipeta"></mb-image>
+    <div class="border-bottom text-center">
+      <h2 class="black-background bold">VIA PARCEIRO AMBEV</h2>
+    </div>
+    <div class="border-bottom text-center">
+      <h2 class="bold">OPERAÇÃO BEM-SUCEDIDA!</h2>
+      <h2 class="bold">ID: 3</h2>
+    </div>
+    <div class="border-bottom text-center">
+      <h4><span class="bold">Valor:</span> R$ 40,00</h4>
+      <h4><span class="bold">Para mais informações, acesse:</span></h4>
+      <h4 class="border-full"><span class="bold">portal.stone.com.br</span></h4>
+    </div>
+    <div class="border-bottom text-center">
+      <h4><span class="bold">CNPJ:</span> 28.958.742/0001-43</h4>
+      <h4><span class="bold">Estabelecimento:</span> Bar do Juarez</h4>
+    </div>
+  </mb-print-area>
+  <mb-print-area ref="filipeta-ambev">
+    <mb-image mb-src="./assets/logo_ambev_transparente.png" class="filipeta"></mb-image>
+    <div class="border-bottom text-center">
+      <h2 class="black-background bold">VIA AMBEV</h2>
+    </div>
+    <div class="border-bottom text-center">
+      <h2 class="bold">OPERAÇÃO BEM-SUCEDIDA!</h2>
+      <h2 class="bold">ID: 3</h2>
+    </div>
+    <div class="border-bottom text-center">
+      <h4><span class="bold">Valor:</span> R$ 40,00</h4>
+      <h4><span class="bold">Para mais informações, acesse:</span></h4>
+      <h4 class="border-full"><span class="bold">portal.stone.com.br</span></h4>
+    </div>
+    <div class="border-bottom text-center">
+      <h4><span class="bold">CNPJ:</span> 28.958.742/0001-43</h4>
+      <h4><span class="bold">Estabelecimento:</span> Bar do Juarez</h4>
+    </div>
+  </mb-print-area>
+</div>

@@ -97,7 +97,7 @@ module.exports = {
   devServer: {
     inline: true,
     disableHostCheck: true,
-    host: 'localhost',
+    host: '0.0.0.0',
     headers: {
       'Access-Control-Allow-Origin': '*'
     }

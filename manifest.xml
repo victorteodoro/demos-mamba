@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-<MambaClass Type="Manifest" Version="1.0">
-    <Member Name="id">99</Member>
-    <Member Name="appName">My Project</Member>
-    <Member Name="defaultName">My Project</Member>
-    <Member Name="iconPath">assets/logo.svg</Member>
-    <Member Name="displayedName">My Project</Member>
-    <Member Name="appVersion">1.0.0</Member>
+<MambaClass Type="Manifest" Version="2.0">
+    <Member Name="id">01</Member>
+    <Member Name="appName">Demo Ambev v2</Member>
+    <Member Name="defaultName">Demo Ambev v2</Member>
+    <Member Name="iconPath">assets/logo_ambev_app.png</Member>
+    <Member Name="displayedName">Demo Ambev v2</Member>
+    <Member Name="appVersion">2.0.0</Member>
     <Member Name="runOnUserSelection">index.html</Member>
     <Member Name="listInMainMenu">true</Member>
     <Member Name="appTechnology">1</Member>
     <Member Name="appType">0</Member>
-    <Member Name="appDescription">Mamba Project</Member>
+    <Member Name="appDescription">Projeto Mamba para o Parceiro Ambev</Member>
     <Member Name="appCreationDate">2017-07-17T13:32:00</Member>
     <Member Name="appLastModificationDate">2017-07-17T13:33:00</Member>
     <Member Name="appPasswordProtectionLevel">0</Member>

@@ -4,12 +4,12 @@
 
 body {
   height: 300px;
-  background-color: $grafitti;
 }
 
 .mb-button {
   width: 100%;
   margin-top: 8px;
+  background-color: #134bb8;
 }
 
 .mb-input-container {
@@ -45,7 +45,7 @@ body {
 }
 
 .mb-printing {
-  background-color: $grafitti;
+  background-color: #134bb8;
 
   .mb-printing-content {
     padding: 0 40px;
